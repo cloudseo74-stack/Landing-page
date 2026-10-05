@@ -7,9 +7,9 @@ export const services = [
   { title: 'Wedding & Event Travel', description: 'Bring everyone together with travel arrangements for your special occasion.', image: 'wedding-event-cab', icon: 'heart', tag: 'MAKE IT AN OCCASION' },
 ] as const;
 export const fleet = [
-  { name: 'Sedan Car', image: 'sedan', caption: 'A comfortable everyday companion', tags: ['Local trips', 'Airport transfers', 'Small families', 'Business travel'], cta: 'Ask Sedan Fare' },
-  { name: 'SUV', image: 'suv', caption: 'More room for your next adventure', tags: ['Family travel', 'Outstation journeys', 'Extra luggage', 'Longer trips'], cta: 'Ask SUV Fare' },
-  { name: 'Group Travel', image: 'group-travel', caption: 'Good journeys are better together', tags: ['Larger families', 'Group outings', 'Events', 'Sightseeing'], cta: 'Ask Group Travel Fare' },
+  { name: 'Sedan Car', image: 'fleet-sedan', caption: 'A comfortable everyday companion', tags: ['Local trips', 'Airport transfers', 'Small families', 'Business travel'], cta: 'Ask Sedan Fare' },
+  { name: 'SUV', image: 'fleet-suv', caption: 'More room for your next adventure', tags: ['Family travel', 'Outstation journeys', 'Extra luggage', 'Longer trips'], cta: 'Ask SUV Fare' },
+  { name: 'Group Travel', image: 'fleet-group-travel', caption: 'Good journeys are better together', tags: ['Larger families', 'Group outings', 'Events', 'Sightseeing'], cta: 'Ask Group Travel Fare' },
 ];
 export const destinations = ['Ranchi Sightseeing', 'Waterfall Trips', 'Netarhat', 'Betla', 'Deoghar', 'Rajrappa', 'Parasnath / Shikharji', 'Jharkhand Tour'];
 export const faqs = [

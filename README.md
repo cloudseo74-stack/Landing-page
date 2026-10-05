@@ -19,7 +19,7 @@ Open http://localhost:3000. Production: `npm run build` then `npm start`.
 - `src/components/LandingPage.tsx`: sections and booking interactions.
 - `src/app/globals.css`: responsive design and Tailwind theme.
 
-Images live in `public/images`. The supplied logo is used as-is. Hero, airport and waterfall images are AI-generated illustrations, not verified photographs of the fleet or named places. Other service image slots reuse these visuals; the three fleet cards use representative vector illustrations. Replace each named WebP with approved photography before publishing if available. All slots are local, use Next/Image and have fixed layout dimensions. `scripts/prepare-assets.mjs` prepares placeholders and should not be rerun over replacement photographs.
+Images live in `public/images`. The supplied logo is used as-is. Hero, airport and waterfall images are AI-generated illustrations, not verified photographs of the fleet or named places. Other service image slots reuse these visuals; the three fleet cards use user-supplied images optimized as fleet-sedan.webp, fleet-suv.webp and fleet-group-travel.webp. Replace each named WebP with approved photography before publishing if available. All slots are local, use Next/Image and have fixed layout dimensions. `scripts/prepare-assets.mjs` prepares placeholders and should not be rerun over replacement photographs.
 
 ## Booking
 
