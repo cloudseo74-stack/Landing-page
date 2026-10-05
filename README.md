@@ -15,7 +15,6 @@ Open http://localhost:3000. Production: `npm run build` then `npm start`.
 
 - `src/config/business.ts`: contact details and WhatsApp URL helper.
 - `src/data/content.ts`: services, vehicles, destinations and FAQs.
-- `src/data/testimonials.ts`: verified review data. Empty by design; the page explicitly shows placeholders without ratings or fictional customers.
 - `src/components/LandingPage.tsx`: sections and booking interactions.
 - `src/app/globals.css`: responsive design and Tailwind theme.
 
@@ -27,7 +26,7 @@ The form validates required fields, an Indian mobile number (with optional +91/9
 
 ## Before publishing
 
-Add authentic testimonials with source links when available; no Google Business URL was supplied. Replace illustrative images as needed. Set `NEXT_PUBLIC_SITE_URL` to the real production origin before building to enable absolute Open Graph image metadata. The optional itinerary was omitted because no verified itinerary was provided. Confirm all business details with the owner before launch.
+Replace illustrative images as needed. Set `NEXT_PUBLIC_SITE_URL` to the real production origin before building to enable absolute Open Graph image metadata. The optional itinerary was omitted because no verified itinerary was provided. Confirm all business details with the owner before launch.
 
 ## Verification
 
